@@ -1,0 +1,12 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scrips": {
+    "test": "vitest --globals"
+  },
+  "devDependencies": {
+    "vitest": "^0.12.9"
+  }
+}
