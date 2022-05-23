@@ -1,12 +1,11 @@
 import express from 'express';
-
+import { add } from './src/math.js';
+import { extractNumbers, extractResultQueryParam } from './src/parser.js';
 import { transformToNumber } from './src/util/numbers.js';
 import {
   validateNumber,
   validateStringNotEmpty,
 } from './src/util/validation.js';
-import { add } from './src/math.js';
-import { extractNumbers, extractResultQueryParam } from './src/parser.js';
 
 const app = express();
 

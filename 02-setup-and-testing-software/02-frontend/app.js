@@ -1,10 +1,10 @@
-import { extractNumbers } from './src/parser.js';
-import {
-  validateStringNotEmpty,
-  validateNumber,
-} from './src/util/validation.js';
 import { add } from './src/math.js';
+import { extractNumbers } from './src/parser.js';
 import { transformToNumber } from './src/util/numbers.js';
+import {
+  validateNumber,
+  validateStringNotEmpty,
+} from './src/util/validation.js';
 
 const form = document.querySelector('form');
 const output = document.getElementById('result');

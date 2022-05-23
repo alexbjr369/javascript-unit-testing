@@ -1,9 +1,11 @@
 const express = require('express');
-
 const { add } = require('./src/math');
 const { extractNumbers, extractResultQueryParam } = require('./src/parser');
 const { transformToNumber } = require('./src/util/numbers');
-const { validateNumber, validateStringNotEmpty } = require('./src/util/validation');
+const {
+  validateNumber,
+  validateStringNotEmpty,
+} = require('./src/util/validation');
 
 const app = express();
 
@@ -26,7 +28,7 @@ app.get('/', (req, res) => {
           html {
             font-family: sans-serif;
           }
-          
+
           body {
             margin: 2rem;
           }
