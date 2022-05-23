@@ -1,8 +1,9 @@
-export function add(numbers) {
-  let sum = 0;
+// import { test } from 'vitest';
+import { it, expect } from 'vitest';
+import { add } from 'math';
 
-  for (const number of numbers) {
-    sum += number;
-  }
-  return sum;
-}
+it('should summatize all number values in array', () => {
+  const result = add([1, 2, 3]);
+
+  expect(result).toBe(6);
+});

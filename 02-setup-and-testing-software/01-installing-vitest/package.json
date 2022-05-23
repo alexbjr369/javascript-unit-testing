@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scrips": {
-    "test": "vitest --globals"
+  "scripts": {
+    "test": "vitest"
   },
   "devDependencies": {
     "vitest": "^0.12.9"
