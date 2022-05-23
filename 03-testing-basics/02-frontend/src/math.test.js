@@ -2,7 +2,7 @@
 import { it, expect } from 'vitest';
 import { add } from './math';
 
-it('should summatize all number values in array', () => {
+it('should summarize all number values in array', () => {
   // arrange
   const numbers = [1, 2, 3];
 
@@ -47,5 +47,9 @@ it('should yield 0 if an empty array is provided', () => {
 });
 
 it('should throw an error if no value is passed into the function', () => {
-  const result = add();
+  const resultFn = () => {
+    add();
+  };
+
+  expect(resultFn).toThrow();
 });
