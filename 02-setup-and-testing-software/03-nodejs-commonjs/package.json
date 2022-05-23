@@ -1,0 +1,16 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scrips": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "vitest": "^0.9.0"
+  }
+}
