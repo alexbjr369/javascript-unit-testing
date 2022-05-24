@@ -1,10 +1,12 @@
+import { validateStringNotEmpty, validateNumber } from './validation.js';
+
 export function transformToNumber(value) {
   // return NaN; woul break the tests
   return +value;
 }
 
 export function cleanNumbers(numberValues) {
-  const number = [];
+  const numbers = [];
 
   for (const numberInput of numberInputs) {
     validateStringNotEmpty(numberInput);
