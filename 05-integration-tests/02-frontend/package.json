@@ -4,10 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "vitest"
-  },
-  "dependencies": {
-    "express": "^4.17.3"
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest --reporter verbose",
+    "start": "http-server -c-1"
   },
   "devDependencies": {
     "http-server": "^14.1.0",
