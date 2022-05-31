@@ -6,11 +6,11 @@
   "scripts": {
     "test": "vitest"
   },
-  "dependencies": {
-    "express": "^4.17.3"
-  },
   "devDependencies": {
     "http-server": "^14.1.0",
     "vitest": "^0.12.9"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
   }
 }

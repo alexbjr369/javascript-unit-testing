@@ -5,7 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest --reporter verbose"
   },
   "dependencies": {
     "express": "^4.17.3"
